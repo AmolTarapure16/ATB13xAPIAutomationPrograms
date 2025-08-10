@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel-Methods" parallel="classes" thread-count="2">
+    <test name="LoginTests">
+        <classes>
+            <class name="com.amoltarapure.sample.ex_05_TestNGExamples.parallel.method_level.LoginTest"/>
+        </classes>
+    </test>
+</suite>
