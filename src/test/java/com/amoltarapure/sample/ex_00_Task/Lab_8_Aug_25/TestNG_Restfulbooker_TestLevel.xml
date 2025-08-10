@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel-Tests" parallel="tests" thread-count="2">
+
+    <!-- Add listeners here -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Test1">
+        <classes>
+            <class name="com.amoltarapure.sample.ex_00_Task.Lab_8_Aug_25.APITesting_Restfulbooker_E2E_WithPatchUpdate"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="com.amoltarapure.sample.ex_00_Task.Lab_8_Aug_25.APITesting_Restfulbooker_E2E_WithFullUpdate"/>
+        </classes>
+    </test>
+
+</suite>

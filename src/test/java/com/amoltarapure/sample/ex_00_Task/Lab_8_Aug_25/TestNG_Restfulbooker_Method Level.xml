@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Restful Booker E2E Suite" parallel="methods" thread-count="2">
+
+    <test name="E2E API Tests">
+        <classes>
+            <class name="com.amoltarapure.sample.ex_00_Task.Lab_8_Aug_25.APITesting_Restfulbooker_E2E_WithPatchUpdate" />
+            <class name="com.amoltarapure.sample.ex_00_Task.Lab_8_Aug_25.APITesting_Restfulbooker_E2E_WithFullUpdate" />
+        </classes>
+    </test>
+
+</suite>
